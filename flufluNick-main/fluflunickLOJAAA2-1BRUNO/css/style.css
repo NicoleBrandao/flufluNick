@@ -1,0 +1,460 @@
+body{
+        background-color: rgb(254, 229, 243);
+        color: rgb(255, 0, 98);
+       
+    }
+
+
+
+.titulo {
+    text-align: left;
+    font-size: 600%;
+    color: rgb(255, 0, 187);
+}
+
+
+
+
+
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cabecalho {
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 40px rgb(255, 0, 157);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caixa-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.caixa-cabecalho:first-child {
+    flex-grow: 1;
+}
+
+.caixa-cabecalho:last-of-type {
+    display: flex;
+    gap: 30px;
+}
+.subtitulo {
+    text-align: center;
+    font-size: 190%;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.principal {
+    background-color: rgb(203, 255, 251);
+    border-color: rgb(255, 0, 195);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    width: 55%;
+    margin: 0 auto;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+
+
+
+
+
+
+
+
+}
+.link-caixa {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.link-perfil {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+.card-main {
+    width: 200px;
+    width: 180px;
+    height: 300px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 20px;
+    background-color: rgb(255, 171, 222);
+    color: rgb(3, 2, 3);
+    padding: 4px;
+
+
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.card-title {
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.card-image {
+   
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.card-desc {
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.card-price {
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.card-btn {
+ 
+width: 100%;
+text-align:center ;
+background-color: rgb(0, 0, 0);
+height: 40px;
+color: rgb(106, 255, 0);
+font-weight: 700;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.caixa-pesquisa {
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-pesquisa {
+    width: 50%;
+    padding: 10px 15px;
+    border: 2px solid rgb(255, 0, 187);
+    border-radius: 6px;
+    background-color: rgb(254, 229, 243);
+    color: rgb(255, 0, 98);
+    font-size: 16px;
+}
+
+.barra-pesquisa::placeholder {
+    color: rgb(255, 0, 187);
+}
+
+.barra-pesquisa:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgb(255, 0, 187);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
