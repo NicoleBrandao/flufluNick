@@ -1,215 +1,146 @@
-body{
-        background-color: rgb(254, 229, 243);
-        color: rgb(234, 0, 255);
-       
-    }
-
-.sub {
-text-align: left;
-}
-
-.titulo {
-    text-align: center;
-    font-size: 300%;
-}
-
-
-
-
-
-
-.card-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 20px;
-
-
-}
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+
 }
+
+body {
+    background-color: rgb(254, 229, 243);
+    color: rgb(255, 0, 187);
+       
+}
+
+
+.sub {
+    text-align: left;
+    font-size: 50px;
+    margin: 0;
+    position: relative;
+    left: 0;
+}
+
+.titulo {
+    text-align: left;
+    font-size: 65px;
+    margin-top: -10px;
+    position: relative;
+    top: -2px;
+    left: 130px;
+}
+
 .cabecalho {
-    padding: 20px;
+    padding: 20px 30px;
     background-color: rgb(0, 0, 0);
     width: 100%;
     height: 145px;
+    min-height: 145px;
     box-shadow: 2px 2px 40px rgb(255, 0, 157);
-}
-.subtitulo {
-    text-align: center;
-    font-size: 190%;
-
-
-
-
-
-
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
+.logo {
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+}
 
+.barra-pesquisa {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
 
+.barra-pesquisa input {
+    width: 700px;
+    height: 45px;
+    padding: 10px 14px;
+    border: 1px solid rgb(255, 0, 187);
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+}
 
+.caixa-cabecalho {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
 
+.carrinho {
+    font-size: 30px;
+    margin: 0;
+    color: rgb(255, 0, 187);
+    position: relative;
+    right: 180px;
+}
+.perfil {
+    font-size: 30px;
+    margin: 0;
+    color: rgb(255, 0, 187);
+    position: relative;
+    right: 50px;
+}
 
-
+.conteudo-pagina {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 24px;
+    padding: 30px 40px 40px;
+    flex-wrap: wrap;
+}
 
 .principal {
-    background-color: rgb(203, 255, 251);
+    background-color: rgb(255, 236, 252);
     border-color: rgb(255, 0, 195);
     border-width: 1px;
     border-style: solid;
-    border-radius: 8px;
-    width: 55%;
-    margin: 0 auto;
-    height: 40px;
+    border-radius: 16px;
+    width: min(1000px, 100%);
+    min-height: 720px;
+    margin: 0;
     text-align: center;
-    padding: 10px;
-
-
-
-
-
-
-
-
+    flex: 1 1 650px;
+    max-width: 1000px;
 }
-.link-caixa {
-    text-decoration: none;
+
+.imagem-lateral {
+    display: flex;
+    align-items: stretch;
+    flex: 1 1 320px;
+    max-width: 420px;
+    min-height: 720px;
+}
+
+.imagem-lateral img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid rgb(255, 0, 195);
+    border-radius: 16px;
+}
+
+.subtitulo {
+    font-size: 70px;
+    margin-top: 20px;
     color: rgb(255, 0, 187);
 }
+.descricao {
+    justify-content: center;
+    text-align: justify;
+    font-size: 55px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    color: rgb(253, 130, 220);
 
-
-
-
-
-
-
-
-.card-main {
-    width: 200px;
-    width: 180px;
-    height: 300px;
-    border: 2px solid rgb(255, 0, 187);
-    border-radius: 8px;
-    margin: 20px;
-    background-color: rgb(255, 171, 222);
-    color: rgb(255, 0, 179);
-    padding: 4px;
-
-
-
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-
-
-
-}
-
-
-
-
-
-
-
-
-.card-title {
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-.card-image {
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-.card-desc {
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-.card-price {
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-.card-btn {
- 
-width: 100%;
-text-align:center ;
-background-color: rgb(255, 250, 152);
-height: 40px;
-color: hotpink;
-font-weight: 700;
-border-radius: 8px;
-display: flex;
-flex-direction: column;
-justify-content: center;
 }
 
 
